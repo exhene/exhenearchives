@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="startAnimation()">Start Animation</button>
+    <div id="box"></div>
+    <script>
+      let box = document.querySelector("#box");
+      let x = 0;
+      let y = 0;
+      let step = 1;
+
+      function startAnimation() {
+        setInterval(function () {
+          x += step;
+          y += step;
+          box.style.left = x + "px";
+          box.style.top = y + "px";
+          if (x >= 300 || x <= 0) {
+            step = -step;
+          }
+        }, 10);
+      }
+    </script>
+  </body>
+</html>

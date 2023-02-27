@@ -1,0 +1,142 @@
+
+    .header {
+        text-align: center;
+    }
+    .listofproglang {
+        text-align: center;
+    }
+    body {
+        font: 100% arial, helvetica, sans-serif;
+        background: linear-gradient(
+            35deg,
+            #d6d6d6,
+            #464646
+        );
+    }
+    fieldset {
+        padding: 0 1em 1em 1em;
+    }
+    legend {
+        padding: 1em;
+    }
+    .proglanglist {
+        font-size: 1.1em;
+        background: linear-gradient(
+            35deg,
+            #6d6d6d,
+            #1d1d1d
+        );
+        margin: 50px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 6px;
+        border-left-width: 6px;
+        border-right-width: 6px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(0, 0, 0);
+    }
+    .htmlcssjs {
+        font-size: 0.9em;
+        background: linear-gradient(
+            35deg,
+            #ff4800,
+            #1f3368
+        );
+        margin: 20px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 6px;
+        border-left-width: 6px;
+        border-right-width: 6px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(0, 0, 0);
+    }
+    .typescript {
+        font-size: 0.9em;
+        background: linear-gradient(
+            35deg,
+            #0088e2,
+            #ffffff
+        );
+        margin: 20px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 6px;
+        border-left-width: 6px;
+        border-right-width: 6px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(0, 0, 0);
+    }
+    .php {
+        font-size: 0.9em;
+        background: linear-gradient(
+            35deg,
+            #556ac9,
+            #000000
+        );
+        margin: 20px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 6px;
+        border-left-width: 6px;
+        border-right-width: 6px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(0, 0, 0);
+    }
+    .python3 {
+        font-size: 0.9em;
+        background: linear-gradient(
+            35deg,
+            #2953dd,
+            #dad61c
+        );
+        margin: 20px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 6px;
+        border-left-width: 6px;
+        border-right-width: 6px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(0, 0, 0);
+    }
+    .lua {
+        font-size: 0.9em;
+        background: linear-gradient(
+            35deg,
+            #02175e,
+            #ffffff
+        );
+        margin: 20px;
+        padding: 5px;
+        border-style: solid;
+        border-width: 6px;
+        border-left-width: 6px;
+        border-right-width: 6px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 2.5px 2.5px 2.5px 2.5px rgb(0, 0, 0);
+    }
+    .learncode {
+        text-align: center;
+        font-size: 0.9em;
+        background: linear-gradient(
+            35deg,
+            #383838,
+            #ffffff
+        );
+        width: 500px;
+        margin: 0 auto;
+        padding: 10px;
+        border-style: solid;
+        border-width: 3px;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        border-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    }
